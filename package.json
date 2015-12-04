@@ -1,0 +1,32 @@
+{
+  "name": "when-ready",
+  "version": "0.0.1",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run lint && tap --cov test/*.js",
+    "lint": "eslint *.js 'lib/**/*.js' test/*.js bin/*.js",
+    "coveralls": "COVERALLS_REPO_TOKEN=gFCy92XHsy2AcR4fJ7icDdWlmDF6qLE7A npm test"
+  },
+  "devDependencies": {
+    "eslint": "^1.10.1",
+    "tap": "^2.3.1"
+  },
+  "description": "Increasing delays dynamically",
+  "directories": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zoubin/when-ready.git"
+  },
+  "keywords": [
+    "delay",
+    "promise"
+  ],
+  "author": "zoubin",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zoubin/when-ready/issues"
+  },
+  "homepage": "https://github.com/zoubin/when-ready#readme"
+}
