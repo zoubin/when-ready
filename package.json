@@ -1,6 +1,6 @@
 {
   "name": "when-ready",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "main": "index.js",
   "scripts": {
     "test": "npm run lint && tap --cov test/*.js",
